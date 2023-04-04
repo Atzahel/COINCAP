@@ -1,0 +1,27 @@
+$dark-blue: #1C3156;
+$light-blue:#1F3C90;
+$green-blue:#2AB199;
+$orange:#E65319;
+$Yellow:#F9CA47;
+$white: #ffffff;
+
+@function get-opacity($color,$level){
+    @return rgba($color,$level);
+}
+
+*{
+    font-family:'Open Sans', sans-serif !important;
+    h1,h2,h3,h4{
+        font-weight: bold;
+    }
+    p{
+        font-weight: 400;
+    }
+    a{
+        text-decoration: none;
+        color: $dark-blue;
+    }
+}
+html{
+    font-size: 62.5%;
+}

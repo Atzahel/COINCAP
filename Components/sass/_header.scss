@@ -1,0 +1,59 @@
+header{
+    background-color: get-opacity($light-blue,.50);
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 50vw 1fr;
+        justify-items: center;
+        align-items: center;
+        height: 10rem;
+        svg{
+            width: 7rem;
+            height: 7rem;
+        }
+        ul{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            align-self: center;
+            width: 80%;
+            list-style: none;
+            position: relative;
+            .link-navegation{
+                text-decoration: none;
+                color: $white;
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+            li{
+                @extend .link-navegation;
+            }
+            ul{
+                display: none;
+                position: absolute;
+                left: 18rem;
+                top:2rem;
+                margin: 0;
+                padding: 0;
+                width: 20rem;
+                background-color: $light-blue;
+                li{
+                    margin: 1rem 0;
+                    border-bottom: solid 0.1rem $white;
+                }
+            }
+            .services:hover + ul{
+                display: block;
+            }
+            ul:hover{
+                display: block;
+            }
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            svg{
+                width: 3rem;
+                margin-left: 1.5rem;
+            }
+        }
+    }
+}

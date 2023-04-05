@@ -1,5 +1,9 @@
 header{
-    background-color: get-opacity($light-blue,.50);
+    width: 100%;
+    min-width: 100vw;
+    background-color: get-opacity($light-blue,.80);
+    position: fixed;
+    z-index: 2;
     nav{
         display: grid;
         grid-template-columns: 1fr 50vw 1fr;
@@ -21,7 +25,7 @@ header{
                 text-decoration: none;
                 color: $white;
                 font-weight: bold;
-                font-size: 1.5rem;
+                font-size: $md;
             }
             li{
                 @extend .link-navegation;
@@ -53,6 +57,235 @@ header{
             svg{
                 width: 3rem;
                 margin-left: 1.5rem;
+            }
+        }
+        .movil-logo{
+            display: none;
+        }
+        input{
+            display: none;
+        }
+        .Nav-responsive{
+            display: none;
+        }
+        .active-responsive-menu{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 743px) and (min-width: 360px)  {
+    header{ 
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        background-color: transparent;
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20%;
+            justify-content: center;
+            align-content: center;
+            height: 8vh;
+            width: 80vw;
+            background-color: get-opacity($white,.80);
+            .Desktop-Logo{
+                display: none;
+            }
+            ul{
+                display: none;
+            }
+            .social-media{
+                display: none;
+            }
+            .movil-logo{
+                display: flex;
+                justify-content: center;
+                svg{
+                    width: 50%;
+                }
+            }
+            .active-responsive-menu{
+                display: flex;
+                justify-content: center;
+                svg{
+                    width: 20%;   
+                }
+            }
+            input:checked + .Nav-responsive{
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                left: 20%;
+                top: 0;
+                width: 80vw;
+                height: 100vh;
+                background-color: get-opacity($white,.9);
+                overflow-y: scroll;
+                filter: drop-shadow(1.8rem 0px 1.5rem $dark-blue);
+                .close-responsive-menu{
+                    width: 5rem;
+                    align-self: flex-start;
+                    svg{
+                        width: 50%;
+                    }
+                }
+                .logo-menu-movil{
+                    align-self: center;
+                    margin-top: 5rem;
+                    margin-bottom: 5rem;
+                    svg{
+                        width: 10rem;
+                    }
+                }
+                .responsive-nav-menu{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(auto, 1fr);
+                    
+                    a{
+                        height: 2rem;
+                        width: auto;  
+                        margin-top: 2rem;  
+                    }
+                    a:first-child{
+                        margin-bottom: 1rem;
+                    }
+                    li{
+                        color: black;
+                        font-size: $md;
+                    }
+                    .mobile-dropdown-services{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        height: 4rem;
+                        svg{
+                            width: 1rem;
+                        }
+                    }
+                    input:checked + .movilServices{
+                        display: block;
+                        position: static;
+                        margin: 1rem 1.7rem;
+                        border-bottom: none;
+                        width: 70%;
+                        background-color: transparent;
+                    }
+                }
+                .social-media-movil{
+                    margin-top: 5rem;
+                    padding-left: 3rem;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 744px)  {
+    header{ 
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        background-color: transparent;
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20%;
+            justify-content: center;
+            align-content: center;
+            height: 8vh;
+            width: 80vw;
+            background-color: get-opacity($white,.80);
+            .Desktop-Logo{
+                display: none;
+            }
+            ul{
+                display: none;
+            }
+            .social-media{
+                display: none;
+            }
+            .movil-logo{
+                display: flex;
+                justify-content: center;
+                svg{
+                    width: 50%;
+                }
+            }
+            .active-responsive-menu{
+                display: flex;
+                justify-content: center;
+                svg{
+                    width: 20%;   
+                }
+            }
+            input:checked + .Nav-responsive{
+                display: flex;
+                flex-direction: column;
+                position: fixed;
+                left: 40%;
+                top: 0;
+                width: 60vw;
+                height: 100vh;
+                background-color: get-opacity($white,.9);
+                overflow-y: scroll;
+                filter: drop-shadow(1.8rem 0px 1.5rem $dark-blue);
+                .close-responsive-menu{
+                    width: 5rem;
+                    align-self: flex-start;
+                    svg{
+                        width: 50%;
+                    }
+                }
+                .logo-menu-movil{
+                    align-self: center;
+                    margin-top: 5rem;
+                    margin-bottom: 5rem;
+                    svg{
+                        width: 10rem;
+                    }
+                }
+                .responsive-nav-menu{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: repeat(auto, 1fr);
+                    
+                    a{
+                        height: 2rem;
+                        width: auto;  
+                        margin-top: 4rem;  
+                    }
+                    a:first-child{
+                        margin-bottom: 3rem;
+                    }
+                    li{
+                        color: black;
+                        font-size: $lg;
+                    }
+                    .mobile-dropdown-services{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        height: 4rem;
+                        svg{
+                            width: 1rem;
+                        }
+                    }
+                    input:checked + .movilServices{
+                        display: block;
+                        position: static;
+                        margin: 1rem 1.7rem;
+                        border-bottom: none;
+                        width: 90%;
+                        background-color: transparent;
+                        li{
+                            margin-top: 2rem;
+                        }
+                    }
+                }
+                .social-media-movil{
+                    margin-top: 5rem;
+                    padding-left: 4.5rem;
+                }
             }
         }
     }

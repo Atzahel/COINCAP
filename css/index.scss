@@ -1,3 +1,65 @@
 @import "../Components/sass/config";
 @import "../Components/sass/normalize";
 @import "../Components/sass/header";
+.Cover{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -2;
+        top: 0;
+        left: 0;
+    }
+    &--Information{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 35%;
+        height: 25%;
+        margin-left: 5vw;
+        border-radius: 7pt;
+        padding: 6rem;
+        background-color: rgba($light-blue,0.8);
+        p{
+            margin-top: 1rem;
+            color: $white;
+            font-size: $md;
+        }
+        h1{
+            margin: 0;
+            color: $Yellow;
+            font-size: 3rem;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-top: 3rem;
+            a:nth-child(1) button{
+                @include main-btn-DN;
+                margin-right: 3rem;
+            }
+            a:nth-child(1) button:hover{
+                @include main-btn-DNH;
+                transform: scale(1.2);
+                transition: all 0.2s;
+            }
+
+            a:last-child button{
+                @include secundary-btn-DN;
+                margin-right: 3rem;
+            }
+            a:last-child button:hover{
+                @include secundary-btn-DNH;
+                transform: scale(1.2);
+                transition: all 0.2s;
+            }
+        } 
+    }
+}

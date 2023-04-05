@@ -1,13 +1,84 @@
+// ============ VARIABLES ====================
+// Colors in the web
 $dark-blue: #1C3156;
 $light-blue:#1F3C90;
 $green-blue:#2AB199;
 $orange:#E65319;
 $Yellow:#F9CA47;
 $white: #ffffff;
+// Font size for website
+$sm: 1.1rem;
+$md: 1.5rem;
+$lg: 2rem;
+$xlg: 2.5rem;
+
+// ========= END VARIABLES ==========================
+
+// ========== START FUNCTIONS ======================
 
 @function get-opacity($color,$level){
     @return rgba($color,$level);
 }
+// ========== END FUNCTIONS ======================
+
+
+// =============== MIXIN BUTTON STYLES ===================
+
+
+/*MAIN BUTTON DESKTOP NEGATIVE
+    It uses when the background is dark color like dark-blue, 
+    black or opaque image.*/
+
+@mixin main-btn-DN{
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: $white;
+    border-radius: 7pt;
+    color: $light-blue;
+    font-size: $md;
+    font-weight: bold;
+}
+// Hoover Style
+@mixin main-btn-DNH{
+    background-color: $Yellow;
+}
+
+
+
+/*SECUNDARY BUTTON DESKTOP NEGATIVE
+    It uses when the background is dark color like dark-blue, 
+    black or opaque image and there are a main button at section*/
+
+@mixin secundary-btn-DN{
+    width: 15rem;
+    height: 5rem;
+    border: $white solid 0.1rem;
+    background-color: transparent;
+    color: $white;
+    border-radius: 7pt;
+    font-size: $md;
+    font-weight: bold;
+}
+@mixin secundary-btn-DNH{
+    border: $Yellow solid 0.1rem;
+    color: $Yellow;
+}
+
+/*MAIN BUTTON DESKTOP POSITIVE
+    It uses when the background is dark color like light blue, 
+    white or high illuminate image.*/
+
+    @mixin main-btn-DP{
+
+    }
+
+
+
+
+
+//============== END MIXIN BUTTON STYLES ====================
+
 
 *{
     font-family:'Open Sans', sans-serif !important;
@@ -24,4 +95,7 @@ $white: #ffffff;
 }
 html{
     font-size: 62.5%;
+}
+button{
+    cursor:pointer;
 }

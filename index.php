@@ -81,7 +81,36 @@
           <a href=""><button>VER MÁS SERVICIOS</button></a>
         </div>
       </section>
-      <section></section>
+      <section class="counter">
+        <img src="img/Flete Terrestre.jpg" alt="Flete Terrestre Consorcio Internacional Caporali" title="Servicio de flete terrestre">
+        <div class="counter--Background">
+          <h2>Proveemos <strong>soluciones logísticas personalizadas</strong> para necesidades de tu negocio</h2>
+          <div class="counter--Container">
+            <div class="counter--Container__item">
+              <p>1500</p>
+              <p>Envíos realizados</p>
+            </div>
+            <div class="counter--Container__item">
+              <p>32</p>
+              <p>Estados recorridos</p>
+            </div>
+            <div class="counter--Container__item">
+              <p>15000</p>
+              <p>Toneladas enviadas</p>
+            </div>
+            <div class="counter--Container__item">
+              <p>115</p>
+              <p>Clientes satisfechos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <?php include 'Components/php/recent-post.php'?>
+      <section class="Video-section">
+        <h2>¿Por qué deberías elegir nuestro servicio?</h2>
+        <p>Somos tu proveedor de confianza</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OqYLg2q6s1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
     </main>
 </body>
 </html>

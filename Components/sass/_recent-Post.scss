@@ -1,0 +1,32 @@
+.blog{
+    margin: 0 10%;
+    h2{
+        width: 25%;
+        font-size: $xlg;
+        border-bottom: solid 0.2rem $Yellow;
+        strong{
+            color: $light-blue;
+        }
+    }
+    &--Container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10%;
+        img{
+            width: 100%;
+            height: 40vh;
+            background-color: $dark-blue;
+        }
+        h3{
+            font-size: $md;
+        }
+        p:nth-last-child(2){
+            color: $light-blue;
+            font-size: $sm;
+        }
+        p:last-child{
+            font-size: $sm;
+            text-align: justify;
+        }
+    }
+}

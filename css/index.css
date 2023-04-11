@@ -702,4 +702,172 @@ header nav .active-responsive-menu {
   color: #F9CA47;
   transform: scale(1.2);
   transition: all 0.2s;
+}
+
+.Consorcio-Overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+}
+.Consorcio-Overview h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+.Consorcio-Overview p:nth-child(2) {
+  font-size: 2rem;
+  color: #1F3C90;
+  font-weight: bold;
+}
+.Consorcio-Overview p:nth-child(3) {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.Consorcio-Overview p:nth-child(5) {
+  font-size: 1.5rem;
+}
+.Consorcio-Overview .benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10%;
+  padding: 0% 20%;
+  margin-top: 5%;
+}
+.Consorcio-Overview .benefits__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border: solid 0.1rem black;
+}
+.Consorcio-Overview .benefits__item h3 {
+  font-size: 1.5rem;
+}
+.Consorcio-Overview .benefits__item img {
+  width: 8rem;
+}
+.Consorcio-Overview .benefits__item p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.services {
+  width: 100%;
+}
+.services--first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  background-color: #1F3C90;
+  height: 30vh;
+  position: relative;
+}
+.services--first h2 {
+  padding-right: 5rem;
+  margin-right: 5rem;
+  border-right: solid #ffffff 0.2rem;
+  color: #ffffff;
+  font-size: 4rem;
+}
+.services--first p {
+  width: 30%;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.services--cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 10%;
+  gap: 5rem;
+  position: relative;
+  background-color: #ffffff;
+  height: 70vh;
+}
+.services--cards__item {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+  padding: 10%;
+}
+.services--cards__item img {
+  position: absolute;
+  top: -3%;
+  left: 0%;
+  z-index: 1;
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  background-color: #ffffff;
+  border-radius: 7pt;
+  filter: opacity(0.9);
+}
+.services--cards__item h3 {
+  z-index: 2;
+  align-self: end;
+  margin-right: 5%;
+  color: #ffffff;
+}
+.services--cards__item a {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  align-self: end;
+  margin-bottom: 3rem;
+}
+.services--cards__item a button {
+  width: 15rem;
+  height: 5rem;
+  border: #ffffff solid 0.1rem;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 7pt;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transform: scale(0.8);
+}
+.services--cards__item a button:hover {
+  border: #F9CA47 solid 0.1rem;
+  color: #F9CA47;
+  transform: scale(0.8);
+}
+.services--thrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  width: 100%;
+  background-color: #1F3C90;
+}
+.services--thrid div h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.services--thrid div p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 90%;
+}
+.services--thrid a button {
+  width: 15rem;
+  height: 5rem;
+  border: #ffffff solid 0.1rem;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 7pt;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.services--thrid a button:hover {
+  border: #F9CA47 solid 0.1rem;
+  color: #F9CA47;
 }/*# sourceMappingURL=index.css.map */

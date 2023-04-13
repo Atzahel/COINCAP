@@ -1,0 +1,196 @@
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+    .Cover{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        &--Information{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            margin-left: 0;
+            border-radius: 0;
+            padding: 0;
+            p{
+                width: 80%;
+                margin-top: 1rem;
+                text-align: center;
+                color: $white;
+                font-size: $md;
+            }
+            h1{
+                width: 80%;
+                margin: 0;
+                text-align: center;
+                color: $Yellow;
+                font-size: $lg;
+            }
+            div{
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+                bottom: 5%;
+                a:nth-child(1) button{
+                    @include main-btn-DN;
+                    width: 100%;
+                }
+                a:nth-child(1) button:active{
+                    @include main-btn-DNH;
+                    transition: all 0.2s;
+                }
+    
+                a:last-child button{
+                    @include secundary-btn-DN;
+                    margin-top: 2rem;
+                    width: 100%;
+                }
+                a:last-child button:active{
+                    @include secundary-btn-DNH;
+                    transition: all 0.2s;
+                }
+                a{
+                    width: 80vw;
+                }
+            } 
+        }
+    }  
+    .Consorcio-Overview{
+        padding-top: 0;
+        h2{
+            font-size: $md;
+        }
+        p:nth-child(2){
+            font-size: $sm;
+        }
+        p:nth-child(3){
+            margin: 2rem;
+            text-align: center;
+            font-size: $sm;
+        }
+        p:nth-child(5){
+            align-self: center;
+            text-align: justify;
+            width: 60%;
+            font-size: $sm;
+            margin-top: 50%;
+        }
+        .benefits{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10%;
+            padding: 10%;
+            margin-top: 5%;
+            &__item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 5%;
+                border: solid 0.1rem black;
+                h3{
+                    font-size: $md;
+                }
+                img{
+                    width: 4rem;
+                }
+                p{
+                    font-size: $sm;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .services{
+        width: 100%;
+        height: auto;
+        &--first{
+            flex-direction: column;
+            margin-top: 10%;
+            height: 40vh;
+            h2{
+                padding-right: 0;
+                margin-right: 0;
+                border-right: none;
+                font-size: $lg;
+            }
+            p{
+                width: 80%;
+                font-size: $sm;
+            }
+        }
+        &--cards{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin:0;
+            height: auto;
+            &__item{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                justify-content: end;
+                position: relative;
+                padding: 0;
+                img{
+                    align-self: center;
+                    position: static;
+                    width: 100%;
+                    padding: 0;
+                    background-color: $light-blue;
+                    border-radius: 7pt;
+                    filter: opacity(0.9);
+                }
+                h3{
+                    z-index: 2;
+                    align-self: end;
+                    margin-right: 5%;
+                    color: $light-blue;
+                    font-size: $lg;
+                }
+                a{
+                    margin: 0;
+                    padding: 0;
+                    width: auto;
+                    height: auto;
+                    z-index: 2;
+                    align-self: end;
+                    margin-bottom: 3rem;
+                    button{
+                        @include main-btn-DP;
+                        transform: scale(0.8);
+                    }
+                }
+            }
+        }
+        &--thrid{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 5%;
+            width: 100%;
+            background-color: $light-blue;
+            div{
+                h2{
+                    color: $white;
+                    font-size: $lg;
+                }
+                p{
+                    color: $white;
+                    font-size: $md;
+                    width: 90%;
+                }
+            }
+            a{
+                button{
+                    @include secundary-btn-DN;
+                }
+                button:hover{
+                    @include secundary-btn-DNH;
+                }
+            }
+        }
+    }          
+}

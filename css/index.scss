@@ -1,10 +1,12 @@
 @import "../Components/sass/config";
 @import "../Components/sass/normalize";
 @import "../Components/sass/header";
+@import "../Components/sass/footer";
+
 .Cover{
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -279,4 +281,132 @@
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
+    h2{
+        margin-bottom: 0;
+        font-size: $xlg;
+    }
+    p{
+        width: auto;
+        margin-bottom: 7vh;
+        border-bottom: solid $Yellow 0.2rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: $lg;
+        color: $light-blue;
+    }
 }
+.Form-Section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+    &--Benefits{
+        padding: 10%;
+        h2{
+            font-size: $xlg;
+        }
+        li{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            svg{
+                margin-right: 8%;
+            }
+            div{
+                h3{
+                    color: $light-blue;
+                    font-size: $md;
+                }
+                p{
+                    font-size: $sm;
+                }
+            }
+        }
+    }
+    &--Form{
+        position: relative;
+        width: 60%;
+        img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($light-blue,0.8);
+            h2{
+                color: $white;
+                font-size: $lg;
+            }
+        }
+        form{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+           ::placeholder{
+            color: $white;
+           }
+            input{
+                border: 0.1rem solid $white;
+                background-color: transparent;
+                width: 100%;
+                height: 3rem;
+                color: $white;
+                outline: none;
+            }
+            input:hover, input:active, input:focus{
+                transform: scale(1.1);
+                border-color: $Yellow;
+                color: $Yellow;
+                transition: all 0.2s;
+            }
+            select{
+                border: 0.1rem solid $white;
+                width: 100%;
+                height: 3rem;
+                background-color: transparent;
+                color: $white;
+                outline: none;
+                option{
+                    color: $light-blue;
+                }
+            }
+            select:hover, select:active, select:focus{
+                transform: scale(1.1);
+                border-color: $Yellow;
+                color: $Yellow;
+                transition: all 0.2s;
+            }
+            textarea{
+                grid-column: 1 / 3;
+                border: solid 0.1rem $white;
+                background: transparent;
+                color: $white;
+                outline: none;
+            }
+            textarea:hover, textarea:active, textarea:focus{
+                transform: scale(1.1);
+                border-color: $Yellow;
+                color: $Yellow;
+                transition: all 0.2s;
+            }
+            input:last-child{
+                grid-column: 1 / 3;
+                @include main-btn-DN;
+                justify-self: center;
+            }
+            input:last-child:hover, input:last-child:active, input:last-child:focus{
+                @include main-btn-DNH;
+            }
+        }
+    }
+}
+@import "../Components/sass/index-movil";

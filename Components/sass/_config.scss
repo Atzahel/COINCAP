@@ -70,10 +70,27 @@ $xlg: 2.5rem;
     white or high illuminate image.*/
 
     @mixin main-btn-DP{
-
+        width: 15rem;
+        height: 5rem;
+        border:none;
+        background-color: $light-blue;
+        color: $white;
+        border-radius: 7pt;
+        font-size: $md;
+        font-weight: bold;
     }
 
-
+    @mixin main-btn-DP{
+        border: none;
+        width: 15rem;
+        height: 5rem;
+        background-color: $light-blue;
+        border-radius: 7pt;
+        color: $white;
+        font-size: $md;
+        font-weight: bold;
+    }
+    
 
 
 

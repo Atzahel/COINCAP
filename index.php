@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -111,6 +111,82 @@
         <p>Somos tu proveedor de confianza</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OqYLg2q6s1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </section>
+      <section class="Form-Section">
+        <div class="Form-Section--Benefits">
+          <h2>BENEFICIOS DE CONTRATARNOS</h2>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31.504" height="30.705" viewBox="0 0 31.504 30.705">
+                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M13.395,4.7l1.561-1.561a1.681,1.681,0,0,1,2.384,0L31.008,16.8a1.681,1.681,0,0,1,0,2.384L17.339,32.857a1.681,1.681,0,0,1-2.384,0L13.395,31.3a1.689,1.689,0,0,1,.028-2.412L21.9,20.813H1.688A1.683,1.683,0,0,1,0,19.125v-2.25a1.683,1.683,0,0,1,1.688-1.687H21.9L13.423,7.116A1.677,1.677,0,0,1,13.395,4.7Z" transform="translate(0 -2.647)" fill="#1f3c90"/>
+              </svg>
+              <div>
+                <h3>Transporte a toda la república</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              </div>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31.504" height="30.705" viewBox="0 0 31.504 30.705">
+                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M13.395,4.7l1.561-1.561a1.681,1.681,0,0,1,2.384,0L31.008,16.8a1.681,1.681,0,0,1,0,2.384L17.339,32.857a1.681,1.681,0,0,1-2.384,0L13.395,31.3a1.689,1.689,0,0,1,.028-2.412L21.9,20.813H1.688A1.683,1.683,0,0,1,0,19.125v-2.25a1.683,1.683,0,0,1,1.688-1.687H21.9L13.423,7.116A1.677,1.677,0,0,1,13.395,4.7Z" transform="translate(0 -2.647)" fill="#1f3c90"/>
+              </svg>
+              <div>
+                <h3>Transporte a toda la república</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              </div>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31.504" height="30.705" viewBox="0 0 31.504 30.705">
+                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M13.395,4.7l1.561-1.561a1.681,1.681,0,0,1,2.384,0L31.008,16.8a1.681,1.681,0,0,1,0,2.384L17.339,32.857a1.681,1.681,0,0,1-2.384,0L13.395,31.3a1.689,1.689,0,0,1,.028-2.412L21.9,20.813H1.688A1.683,1.683,0,0,1,0,19.125v-2.25a1.683,1.683,0,0,1,1.688-1.687H21.9L13.423,7.116A1.677,1.677,0,0,1,13.395,4.7Z" transform="translate(0 -2.647)" fill="#1f3c90"/>
+              </svg>
+              <div>
+                <h3>Transporte a toda la república</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              </div>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31.504" height="30.705" viewBox="0 0 31.504 30.705">
+                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M13.395,4.7l1.561-1.561a1.681,1.681,0,0,1,2.384,0L31.008,16.8a1.681,1.681,0,0,1,0,2.384L17.339,32.857a1.681,1.681,0,0,1-2.384,0L13.395,31.3a1.689,1.689,0,0,1,.028-2.412L21.9,20.813H1.688A1.683,1.683,0,0,1,0,19.125v-2.25a1.683,1.683,0,0,1,1.688-1.687H21.9L13.423,7.116A1.677,1.677,0,0,1,13.395,4.7Z" transform="translate(0 -2.647)" fill="#1f3c90"/>
+              </svg>
+              <div>
+                <h3>Transporte a toda la república</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              </div>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="31.504" height="30.705" viewBox="0 0 31.504 30.705">
+                <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M13.395,4.7l1.561-1.561a1.681,1.681,0,0,1,2.384,0L31.008,16.8a1.681,1.681,0,0,1,0,2.384L17.339,32.857a1.681,1.681,0,0,1-2.384,0L13.395,31.3a1.689,1.689,0,0,1,.028-2.412L21.9,20.813H1.688A1.683,1.683,0,0,1,0,19.125v-2.25a1.683,1.683,0,0,1,1.688-1.687H21.9L13.423,7.116A1.677,1.677,0,0,1,13.395,4.7Z" transform="translate(0 -2.647)" fill="#1f3c90"/>
+              </svg>
+              <div>
+                <h3>Transporte a toda la república</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="Form-Section--Form">
+          <img src="img/Almacen logistico Tijuana.jpg" alt="Almacen logístico Tijuana" Title="Almacen logístico Tijuana | Consorcio Internacional Caporali">
+          <div>
+            <h2>SOLICITA TU COTIZACIÓN</h2>
+            <form action="#">
+              <input type="text" name="" id="" placeholder="Escribe tu nombre" required>
+              <input type="email" name="" id="" placeholder="tuemail@example.com" required>
+              <input type="number" name="" id="" placeholder="Peso de tu carga (kg)" required>
+              <input type="text" name="" id="" placeholder="Ciudad" required>
+              <input type="text" name="" id="" placeholder="Destino" required>
+              <select name="" id="">
+                <option value="null">Servicio a cotizar</option>
+                <option value="Servicio de Almacenaje">Servicio de Almacenaje</option>
+                <option value="Flete Terrestre">Flete terrestre</option>
+                <option value="PL">Servicios PL</option>
+                <option value="Servicio INMEX">Servicio INMEX</option>
+                <option value="Paquetería">Paquetería</option>
+              </select>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje" required></textarea>
+              <input type="submit" value="enviar">
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <?php include 'Components/php/footer.php'?>
 </body>
 </html>

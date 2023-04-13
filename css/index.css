@@ -627,10 +627,109 @@ header nav .active-responsive-menu {
     padding-left: 4.5rem;
   }
 }
+footer {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  gap: 5%;
+  padding-bottom: 10%;
+  background-color: #1F3C90;
+}
+footer .About-us img {
+  margin-left: 10%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 60%;
+}
+footer .About-us h3 {
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 2rem;
+}
+footer .About-us p {
+  margin-left: 10%;
+  color: #ffffff;
+}
+footer .About-us .social-media-footer {
+  margin-left: 10%;
+  margin-top: 5vh;
+}
+footer .About-us .social-media-footer svg {
+  margin-right: 1vw;
+  width: 3vw;
+}
+footer .Locations {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+}
+footer .Locations--place__Direction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .Locations--place__Direction svg {
+  width: 3vw;
+  cursor: pointer;
+}
+footer .Locations--place__Direction h4 {
+  margin-left: 10%;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 2rem;
+}
+footer .Locations--place__Direction p {
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+footer .Locations--place__Direction input {
+  display: none;
+}
+footer .Locations--place__Direction .show-wearehouse {
+  display: none;
+}
+footer .Locations--place__Direction input:checked + .show-wearehouse {
+  display: block;
+  position: fixed;
+  bottom: 15%;
+  left: 20%;
+  width: 50vw;
+}
+footer .Locations--place__Direction input:checked + .show-wearehouse img {
+  width: 100%;
+}
+footer .Locations--place__Direction input:checked + .show-wearehouse img:hover {
+  filter: brightness(0.6);
+}
+footer .Locations--place__Direction input:checked + .show-wearehouse svg {
+  position: absolute;
+  left: 2%;
+  width: 1vw;
+}
+footer .Locations--place__Galery {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  gap: 5%;
+}
+footer .Locations--place__Galery img {
+  width: 5rem;
+  height: 5rem;
+  background-color: #1C3156;
+}
+footer .Locations--place__Galery img:hover {
+  transform: scale(5);
+  transition: all 0.2s;
+}
+footer h3 {
+  margin-top: 5vh;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
 .Cover {
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
   position: relative;
@@ -965,4 +1064,362 @@ header nav .active-responsive-menu {
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
+}
+.Video-section h2 {
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+.Video-section p {
+  width: auto;
+  margin-bottom: 7vh;
+  border-bottom: solid #F9CA47 0.2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1F3C90;
+}
+
+.Form-Section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+}
+.Form-Section--Benefits {
+  padding: 10%;
+}
+.Form-Section--Benefits h2 {
+  font-size: 2.5rem;
+}
+.Form-Section--Benefits li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Form-Section--Benefits li svg {
+  margin-right: 8%;
+}
+.Form-Section--Benefits li div h3 {
+  color: #1F3C90;
+  font-size: 1.5rem;
+}
+.Form-Section--Benefits li div p {
+  font-size: 1.1rem;
+}
+.Form-Section--Form {
+  position: relative;
+  width: 60%;
+}
+.Form-Section--Form img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.Form-Section--Form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(31, 60, 144, 0.8);
+}
+.Form-Section--Form div h2 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.Form-Section--Form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.Form-Section--Form form ::-moz-placeholder {
+  color: #ffffff;
+}
+.Form-Section--Form form ::placeholder {
+  color: #ffffff;
+}
+.Form-Section--Form form input {
+  border: 0.1rem solid #ffffff;
+  background-color: transparent;
+  width: 100%;
+  height: 3rem;
+  color: #ffffff;
+  outline: none;
+}
+.Form-Section--Form form input:hover, .Form-Section--Form form input:active, .Form-Section--Form form input:focus {
+  transform: scale(1.1);
+  border-color: #F9CA47;
+  color: #F9CA47;
+  transition: all 0.2s;
+}
+.Form-Section--Form form select {
+  border: 0.1rem solid #ffffff;
+  width: 100%;
+  height: 3rem;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.Form-Section--Form form select option {
+  color: #1F3C90;
+}
+.Form-Section--Form form select:hover, .Form-Section--Form form select:active, .Form-Section--Form form select:focus {
+  transform: scale(1.1);
+  border-color: #F9CA47;
+  color: #F9CA47;
+  transition: all 0.2s;
+}
+.Form-Section--Form form textarea {
+  grid-column: 1/3;
+  border: solid 0.1rem #ffffff;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+}
+.Form-Section--Form form textarea:hover, .Form-Section--Form form textarea:active, .Form-Section--Form form textarea:focus {
+  transform: scale(1.1);
+  border-color: #F9CA47;
+  color: #F9CA47;
+  transition: all 0.2s;
+}
+.Form-Section--Form form input:last-child {
+  grid-column: 1/3;
+  border: none;
+  width: 15rem;
+  height: 5rem;
+  background-color: #ffffff;
+  border-radius: 7pt;
+  color: #1F3C90;
+  font-size: 1.5rem;
+  font-weight: bold;
+  justify-self: center;
+}
+.Form-Section--Form form input:last-child:hover, .Form-Section--Form form input:last-child:active, .Form-Section--Form form input:last-child:focus {
+  background-color: #F9CA47;
+}
+
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+  .Cover {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .Cover--Information {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+  .Cover--Information p {
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  .Cover--Information h1 {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    color: #F9CA47;
+    font-size: 2rem;
+  }
+  .Cover--Information div {
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+  }
+  .Cover--Information div a:nth-child(1) button {
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: #ffffff;
+    border-radius: 7pt;
+    color: #1F3C90;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  .Cover--Information div a:nth-child(1) button:active {
+    background-color: #F9CA47;
+    transition: all 0.2s;
+  }
+  .Cover--Information div a:last-child button {
+    width: 15rem;
+    height: 5rem;
+    border: #ffffff solid 0.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7pt;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .Cover--Information div a:last-child button:active {
+    border: #F9CA47 solid 0.1rem;
+    color: #F9CA47;
+    transition: all 0.2s;
+  }
+  .Cover--Information div a {
+    width: 80vw;
+  }
+  .Consorcio-Overview {
+    padding-top: 0;
+  }
+  .Consorcio-Overview h2 {
+    font-size: 1.5rem;
+  }
+  .Consorcio-Overview p:nth-child(2) {
+    font-size: 1.1rem;
+  }
+  .Consorcio-Overview p:nth-child(3) {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .Consorcio-Overview p:nth-child(5) {
+    align-self: center;
+    text-align: justify;
+    width: 60%;
+    font-size: 1.1rem;
+    margin-top: 50%;
+  }
+  .Consorcio-Overview .benefits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10%;
+    padding: 10%;
+    margin-top: 5%;
+  }
+  .Consorcio-Overview .benefits__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border: solid 0.1rem black;
+  }
+  .Consorcio-Overview .benefits__item h3 {
+    font-size: 1.5rem;
+  }
+  .Consorcio-Overview .benefits__item img {
+    width: 4rem;
+  }
+  .Consorcio-Overview .benefits__item p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .services {
+    width: 100%;
+    height: auto;
+  }
+  .services--first {
+    flex-direction: column;
+    margin-top: 10%;
+    height: 40vh;
+  }
+  .services--first h2 {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+    font-size: 2rem;
+  }
+  .services--first p {
+    width: 80%;
+    font-size: 1.1rem;
+  }
+  .services--cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    height: auto;
+  }
+  .services--cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    padding: 0;
+  }
+  .services--cards__item img {
+    align-self: center;
+    position: static;
+    width: 100%;
+    padding: 0;
+    background-color: #1F3C90;
+    border-radius: 7pt;
+    filter: opacity(0.9);
+  }
+  .services--cards__item h3 {
+    z-index: 2;
+    align-self: end;
+    margin-right: 5%;
+    color: #1F3C90;
+    font-size: 2rem;
+  }
+  .services--cards__item a {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    align-self: end;
+    margin-bottom: 3rem;
+  }
+  .services--cards__item a button {
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: #1F3C90;
+    border-radius: 7pt;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transform: scale(0.8);
+  }
+  .services--thrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    width: 100%;
+    background-color: #1F3C90;
+  }
+  .services--thrid div h2 {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  .services--thrid div p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .services--thrid a button {
+    width: 15rem;
+    height: 5rem;
+    border: #ffffff solid 0.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7pt;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .services--thrid a button:hover {
+    border: #F9CA47 solid 0.1rem;
+    color: #F9CA47;
+  }
 }/*# sourceMappingURL=index.css.map */

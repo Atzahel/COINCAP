@@ -726,6 +726,87 @@ footer h3 {
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+  footer {
+    grid-template-columns: 1fr;
+    gap: 5%;
+    place-items: center;
+  }
+  footer .About-us img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+  }
+  footer .About-us h3 {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  footer .About-us p {
+    margin: 0 10%;
+    color: #ffffff;
+  }
+  footer .About-us .social-media-footer svg {
+    margin-right: 1vw;
+    width: 20%;
+  }
+  footer .Locations {
+    grid-template-columns: 1fr;
+    margin-top: 5vh;
+    padding: 0 10%;
+  }
+  footer .Locations--place__Direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .Locations--place__Direction svg {
+    width: 3vw;
+    cursor: pointer;
+  }
+  footer .Locations--place__Direction h4 {
+    margin-left: 10%;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  footer .Locations--place__Direction p {
+    margin-left: 10%;
+    width: 80%;
+  }
+  footer .Locations--place__Direction input {
+    display: none;
+  }
+  footer .Locations--place__Direction .show-wearehouse {
+    display: none;
+  }
+  footer .Locations--place__Direction input:checked + .show-wearehouse {
+    display: block;
+    position: fixed;
+    bottom: 15%;
+    left: 20%;
+    width: 50vw;
+  }
+  footer .Locations--place__Direction input:checked + .show-wearehouse img {
+    width: 50vw;
+  }
+  footer .Locations--place__Direction input:checked + .show-wearehouse img:hover {
+    filter: brightness(0.6);
+  }
+  footer .Locations--place__Direction input:checked + .show-wearehouse svg {
+    position: absolute;
+    left: 2%;
+    width: 1vw;
+  }
+  footer .Locations--place__Galery {
+    display: none;
+  }
+  footer h3 {
+    margin-top: 5vh;
+    color: #ffffff;
+    font-size: 2rem;
+    display: none;
+  }
+}
 .Cover {
   display: flex;
   align-items: center;
@@ -1059,6 +1140,70 @@ footer h3 {
   text-align: justify;
 }
 
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+  .blog {
+    padding-bottom: 10%;
+    margin: 0 10%;
+    height: auto;
+    height: 220vh;
+  }
+  .blog h2 {
+    width: 50%;
+  }
+  .blog--Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10%;
+  }
+  .blog--Container img {
+    width: 100%;
+    height: 40vh;
+    background-color: #1C3156;
+  }
+  .blog--Container h3 {
+    font-size: 1.5rem;
+  }
+  .blog--Container p:nth-last-child(2) {
+    color: #1F3C90;
+    font-size: 1.1rem;
+  }
+  .blog--Container p:last-child {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 744px) {
+  .blog {
+    padding-bottom: 10%;
+    margin: 0 10%;
+    height: auto;
+    height: 150vh;
+  }
+  .blog h2 {
+    width: 50%;
+  }
+  .blog--Container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10%;
+  }
+  .blog--Container img {
+    width: 100%;
+    height: 30vh;
+    background-color: #1C3156;
+  }
+  .blog--Container h3 {
+    font-size: 1.5rem;
+  }
+  .blog--Container p:nth-last-child(2) {
+    color: #1F3C90;
+    font-size: 1.1rem;
+  }
+  .blog--Container p:last-child {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+}
 .Video-section {
   display: flex;
   flex-direction: column;
@@ -1208,6 +1353,10 @@ footer h3 {
     height: 100vh;
     position: relative;
   }
+  .Cover img {
+    width: auto;
+    height: 100%;
+  }
   .Cover--Information {
     flex-direction: column;
     justify-content: center;
@@ -1277,6 +1426,7 @@ footer h3 {
   }
   .Consorcio-Overview {
     padding-top: 0;
+    margin-top: 10%;
   }
   .Consorcio-Overview h2 {
     font-size: 1.5rem;
@@ -1334,11 +1484,11 @@ footer h3 {
     padding-right: 0;
     margin-right: 0;
     border-right: none;
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .services--first p {
     width: 80%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .services--cards {
     display: grid;
@@ -1349,10 +1499,6 @@ footer h3 {
   .services--cards__item {
     display: flex;
     flex-direction: column;
-    align-items: end;
-    justify-content: end;
-    position: relative;
-    padding: 0;
   }
   .services--cards__item img {
     align-self: center;
@@ -1391,22 +1537,22 @@ footer h3 {
     transform: scale(0.8);
   }
   .services--thrid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
-    width: 100%;
-    background-color: #1F3C90;
+    flex-direction: column;
+    padding: 0;
+  }
+  .services--thrid div {
+    padding-top: 10%;
   }
   .services--thrid div h2 {
-    color: #ffffff;
-    font-size: 2rem;
+    width: 100%;
+    text-align: center;
   }
   .services--thrid div p {
-    color: #ffffff;
-    font-size: 1.5rem;
-    width: 90%;
+    width: 100%;
+    text-align: center;
+  }
+  .services--thrid a {
+    padding: 10%;
   }
   .services--thrid a button {
     width: 15rem;
@@ -1421,5 +1567,414 @@ footer h3 {
   .services--thrid a button:hover {
     border: #F9CA47 solid 0.1rem;
     color: #F9CA47;
+  }
+  .counter {
+    padding: 10% 0;
+    height: 100vh;
+  }
+  .counter img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+  }
+  .counter--Background {
+    padding-bottom: 10%;
+  }
+  .counter--Background h2 {
+    width: 80%;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .counter--Background h2 strong {
+    color: #F9CA47;
+  }
+  .counter--Container {
+    grid-template-columns: 1fr;
+    gap: 10%;
+  }
+  .counter--Container__item p:first-child {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .counter--Container__item p:last-child {
+    font-size: 2rem;
+    color: #1F3C90;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .Video-section h2 {
+    width: 80%;
+    text-align: center;
+  }
+  .Video-section p {
+    width: 80%;
+  }
+  .Video-section iframe {
+    width: 80vw;
+  }
+  .Form-Section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 150vh;
+  }
+  .Form-Section--Benefits {
+    place-items: center;
+    padding: 10%;
+  }
+  .Form-Section--Benefits h2 {
+    text-align: center;
+  }
+  .Form-Section--Form {
+    position: relative;
+    width: 100%;
+  }
+  .Form-Section--Form form {
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 100%;
+  }
+  .Form-Section--Form form input {
+    width: 80%;
+  }
+  .Form-Section--Form form select {
+    width: 80%;
+  }
+  .Form-Section--Form form textarea {
+    grid-column: 1;
+    width: 80%;
+  }
+  .Form-Section--Form form input:last-child {
+    grid-column: 1;
+    width: 80%;
+  }
+  .Form-Section--Form form input:last-child:hover, .Form-Section--Form form input:last-child:active, .Form-Section--Form form input:last-child:focus {
+    background-color: #F9CA47;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 744px) {
+  .Cover {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .Cover img {
+    width: auto;
+    height: 100%;
+  }
+  .Cover--Information {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 25%;
+    padding: 0;
+  }
+  .Cover--Information p {
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+  .Cover--Information h1 {
+    width: 80%;
+    margin: 0;
+    text-align: center;
+    color: #F9CA47;
+    font-size: 2rem;
+  }
+  .Cover--Information div {
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+  }
+  .Cover--Information div a:nth-child(1) button {
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: #ffffff;
+    border-radius: 7pt;
+    color: #1F3C90;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    width: 100%;
+  }
+  .Cover--Information div a:nth-child(1) button:active {
+    background-color: #F9CA47;
+    transition: all 0.2s;
+  }
+  .Cover--Information div a:last-child button {
+    width: 15rem;
+    height: 5rem;
+    border: #ffffff solid 0.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7pt;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .Cover--Information div a:last-child button:active {
+    border: #F9CA47 solid 0.1rem;
+    color: #F9CA47;
+    transition: all 0.2s;
+  }
+  .Cover--Information div a {
+    width: 100%;
+  }
+  .Consorcio-Overview {
+    padding-top: 0;
+    margin-top: 10%;
+  }
+  .Consorcio-Overview h2 {
+    font-size: 2.5rem;
+  }
+  .Consorcio-Overview p:nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .Consorcio-Overview p:nth-child(3) {
+    margin: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .Consorcio-Overview p:nth-child(5) {
+    align-self: center;
+    text-align: justify;
+    width: 60%;
+    font-size: 1.5rem;
+    margin-top: 50%;
+  }
+  .Consorcio-Overview .benefits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10%;
+    padding: 10%;
+    margin-top: 5%;
+  }
+  .Consorcio-Overview .benefits__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    border: solid 0.1rem #1F3C90;
+  }
+  .Consorcio-Overview .benefits__item h3 {
+    font-size: 2.5rem;
+  }
+  .Consorcio-Overview .benefits__item img {
+    width: 6rem;
+  }
+  .Consorcio-Overview .benefits__item p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .services {
+    width: 100%;
+    height: auto;
+  }
+  .services--first {
+    flex-direction: column;
+    margin-top: 10%;
+    height: 40vh;
+  }
+  .services--first h2 {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+    font-size: 4rem;
+  }
+  .services--first p {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+  .services--cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    height: auto;
+  }
+  .services--cards__item {
+    display: flex;
+    flex-direction: column;
+  }
+  .services--cards__item img {
+    align-self: center;
+    position: static;
+    width: 100%;
+    padding: 0;
+    background-color: #1F3C90;
+    border-radius: 7pt;
+    filter: opacity(0.9);
+  }
+  .services--cards__item h3 {
+    z-index: 2;
+    align-self: end;
+    margin-right: 5%;
+    color: #1F3C90;
+    font-size: 2.5rem;
+  }
+  .services--cards__item a {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    align-self: end;
+    margin-bottom: 3rem;
+  }
+  .services--cards__item a button {
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: #1F3C90;
+    border-radius: 7pt;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .services--thrid {
+    flex-direction: column;
+    padding: 0;
+  }
+  .services--thrid div {
+    padding-top: 10%;
+  }
+  .services--thrid div h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .services--thrid div p {
+    width: 100%;
+    text-align: center;
+  }
+  .services--thrid a {
+    padding: 10%;
+  }
+  .services--thrid a button {
+    width: 15rem;
+    height: 5rem;
+    border: #ffffff solid 0.1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 7pt;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 30vw;
+  }
+  .services--thrid a button:hover {
+    border: #F9CA47 solid 0.1rem;
+    color: #F9CA47;
+  }
+  .counter {
+    padding: 10% 0;
+    height: 100vh;
+  }
+  .counter img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+  }
+  .counter--Background {
+    padding-bottom: 10%;
+  }
+  .counter--Background h2 {
+    width: 80%;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .counter--Container {
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  }
+  .counter--Container__item p:first-child {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .counter--Container__item p:last-child {
+    font-size: 2rem;
+    color: #1F3C90;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .Video-section h2 {
+    width: 80%;
+    text-align: center;
+  }
+  .Video-section p {
+    width: 80%;
+  }
+  .Video-section iframe {
+    width: 80vw;
+  }
+  .Form-Section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 150vh;
+  }
+  .Form-Section--Benefits {
+    place-items: center;
+    padding: 10%;
+  }
+  .Form-Section--Benefits h2 {
+    text-align: center;
+  }
+  .Form-Section--Form {
+    position: relative;
+    width: 100%;
+  }
+  .Form-Section--Form form {
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 100%;
+  }
+  .Form-Section--Form form input {
+    width: 60%;
+  }
+  .Form-Section--Form form select {
+    width: 60%;
+  }
+  .Form-Section--Form form textarea {
+    grid-column: 1;
+    width: 60%;
+  }
+  .Form-Section--Form form input:last-child {
+    grid-column: 1;
+    width: 60%;
+  }
+  .Form-Section--Form form input:last-child:hover, .Form-Section--Form form input:last-child:active, .Form-Section--Form form input:last-child:focus {
+    background-color: #F9CA47;
   }
 }/*# sourceMappingURL=index.css.map */

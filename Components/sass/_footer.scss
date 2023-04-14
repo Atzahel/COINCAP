@@ -98,5 +98,89 @@ footer{
         color: $white;
         font-size: $lg;
     }
-    
+}
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+    footer{
+        grid-template-columns: 1fr;
+        gap: 5%;
+        place-items: center;
+        .About-us{
+            img{
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width: 80%;
+            }
+            h3{
+                color: $white;
+                font-size: $lg;
+            }
+            p{
+                margin:0 10%;
+                color: $white;
+            }
+            .social-media-footer{
+                svg{
+                    margin-right: 1vw;
+                    width: 20%;
+                }
+            }
+        }
+        .Locations{
+            grid-template-columns: 1fr;
+            margin-top: 5vh;
+            padding: 0 10%;
+            &--place__Direction{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg{
+                    width: 3vw;
+                    cursor: pointer;
+                }
+                h4{
+                    margin-left: 10%;
+                    margin-bottom: 0;
+                    color: $white;
+                    font-size: $lg;
+                }
+                p{
+                    margin-left: 10%;
+                    width: 80%;
+                }
+                input{
+                    display: none;
+                }
+                .show-wearehouse{
+                    display: none;
+                }
+                input:checked + .show-wearehouse{
+                    display: block;
+                    position: fixed;
+                    bottom:15%;
+                    left: 20%;
+                    width: 50vw;
+                    img{
+                        width: 50vw;
+                    }
+                    img:hover{
+                        filter: brightness(0.6);
+                    }
+                    svg{
+                        position: absolute;
+                        left: 2%;
+                        width: 1vw;
+                    }
+                }
+            }
+            &--place__Galery{
+                display: none;
+            }
+        }
+        h3{
+            margin-top: 5vh;
+            color: $white;
+            font-size: $lg;
+            display: none;
+        }
+    }
 }

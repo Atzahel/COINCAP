@@ -1,4 +1,4 @@
-@media only screen and (max-width: 743px) and (min-width: 360px) {
+@media only screen and (max-width: 1024px) and (min-width: 744px){
     .Cover{
         width: 100vw;
         height: 100vh;
@@ -11,12 +11,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            margin-left: 0;
-            border-radius: 0;
+            padding: 10%;
+            width: 50vw;
+            height: 50vh;
+            margin-left: 25%;
             padding: 0;
             p{
                 width: 80%;
@@ -35,10 +33,11 @@
             div{
                 flex-direction: column;
                 justify-content: center;
-                position: absolute;
-                bottom: 5%;
+                width: 80%;
+
                 a:nth-child(1) button{
                     @include main-btn-DN;
+                    margin: 0;
                     width: 100%;
                 }
                 a:nth-child(1) button:active{
@@ -56,7 +55,7 @@
                     transition: all 0.2s;
                 }
                 a{
-                    width: 80vw;
+                    width: 100%;
                 }
             } 
         }
@@ -65,21 +64,21 @@
         padding-top: 0;
         margin-top: 10%;
         h2{
-            font-size: $md;
+            font-size: $xlg;
         }
         p:nth-child(2){
-            font-size: $sm;
+            font-size: $md;
         }
         p:nth-child(3){
             margin: 2rem;
             text-align: center;
-            font-size: $sm;
+            font-size: $md;
         }
         p:nth-child(5){
             align-self: center;
             text-align: justify;
             width: 60%;
-            font-size: $sm;
+            font-size: $md;
             margin-top: 50%;
         }
         .benefits{
@@ -93,16 +92,16 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                padding: 5%;
-                border: solid 0.1rem black;
+                padding: 15%;
+                border: solid 0.1rem $light-blue;
                 h3{
-                    font-size: $md;
+                    font-size: $xlg;
                 }
                 img{
-                    width: 4rem;
+                    width: 6rem;
                 }
                 p{
-                    font-size: $sm;
+                    font-size: $md;
                     text-align: center;
                 }
             }
@@ -148,7 +147,7 @@
                     align-self: end;
                     margin-right: 5%;
                     color: $light-blue;
-                    font-size: $lg;
+                    font-size: $xlg;
                 }
                 a{
                     margin: 0;
@@ -160,7 +159,6 @@
                     margin-bottom: 3rem;
                     button{
                         @include main-btn-DP;
-                        transform: scale(0.8);
                     }
                 }
             }
@@ -183,6 +181,7 @@
                 padding: 10%;
                 button{
                     @include secundary-btn-DN;
+                    width: 30vw;
                 }
                 button:hover{
                     @include secundary-btn-DNH;
@@ -208,13 +207,10 @@
                 color: $white;
                 font-size: $xlg;
                 text-align: center;
-                strong{
-                    color: $Yellow;
-                }
             }
         }
         &--Container{
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 10%;
             &__item{
                 p:first-child{
@@ -270,18 +266,18 @@
                 place-items: center;
                 width: 100%;
                 input{
-                    width: 80%;
+                    width: 60%;
                 }
                 select{
-                    width: 80%;
+                    width: 60%;
                 }
                 textarea{
                     grid-column: 1;
-                    width: 80%;
+                    width: 60%;
                 }
                 input:last-child{
                     grid-column: 1;
-                    width: 80%;
+                    width: 60%;
                 }
                 input:last-child:hover, input:last-child:active, input:last-child:focus{
                     @include main-btn-DNH;

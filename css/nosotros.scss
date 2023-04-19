@@ -1,0 +1,122 @@
+@import "../Components/sass/config";
+@import "../Components/sass/normalize";
+@import "../Components/sass/header";
+@import "../Components/sass/footer";
+
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+        filter: brightness(0.6);
+    }
+    .breadcumb{
+        display: flex;
+        li{
+            list-style: none;
+            margin: 1rem;
+            a{
+                color: $white;
+                font-size: $xlg;
+            }
+        }
+    }
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    height: 50vh;
+    img{
+        width: 50%;
+    }
+    &--information{
+        h1{
+            color: $light-blue;
+            font-size: $lg;
+        }
+        p{
+            text-align: justify;
+            width: 80%;
+            font-size: $md;
+        }
+    }
+}
+.wearehouse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        text-align: center;
+        font-size: $xlg;
+        color: $light-blue;
+        width: 80%;
+    }
+    &--container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        margin-top: 10vh;
+        img{
+            width: 80%;
+        }
+        &__item{
+            width: 80%;
+            h3{
+                width: 100%;
+                color: $light-blue;
+                font-size: $lg;
+            }
+            p{
+                width: 100%;
+                font-size: $md;
+            }
+        }
+    }
+    &--container:last-child{
+        img{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        div{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+    }
+}
+.trucks{
+    height: 60vh;
+
+    h2{
+        color: $light-blue;
+        font-size: $xlg;
+    }
+    &--Cards-container{
+        display: grid;
+        grid-template: 1fr / repeat(5, 1fr);
+        gap: 2%;
+        height: 100%;
+        width: 100%;
+        &__item{
+            height: 100%;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+            img{
+                position: absolute;
+                height: 100%;
+                z-index: -1;
+                background-color: $dark-blue;
+            }
+        }
+    }
+}

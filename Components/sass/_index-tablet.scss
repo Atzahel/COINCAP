@@ -249,7 +249,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        height: 150vh;
+        height: 250vh;
         &--Benefits{
             place-items: center;
             padding: 10%;
@@ -261,6 +261,7 @@
         &--Form{
             position: relative;
             width: 100%;
+            height: 100%;
             form{
                 grid-template-columns: 1fr;
                 place-items: center;

@@ -898,6 +898,7 @@ footer h3 {
 
 .trucks {
   height: 60vh;
+  margin-bottom: 10%;
 }
 .trucks h2 {
   color: #1F3C90;
@@ -911,6 +912,9 @@ footer h3 {
   width: 100%;
 }
 .trucks--Cards-container__item {
+  display: flex;
+  justify-content: end;
+  align-items: end;
   height: 100%;
   width: 100%;
   position: relative;
@@ -921,4 +925,130 @@ footer h3 {
   height: 100%;
   z-index: -1;
   background-color: #1C3156;
+  left: 10%;
+}
+.trucks--Cards-container__item div h3 {
+  color: #ffffff;
+  text-align: end;
+  margin-right: 2rem;
+}
+.trucks--Cards-container__item div p {
+  color: #ffffff;
+  text-align: end;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 744px) {
+  .cover img {
+    position: absolute;
+    left: -70%;
+    top: 0;
+    width: auto;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.6);
+  }
+  .trucks {
+    margin: 10%;
+  }
+  .trucks--Cards-container {
+    grid-template: 1fr 1fr/repeat(3, 1fr);
+  }
+  .trucks--Cards-container__item img {
+    position: absolute;
+    height: 125%;
+    left: 0%;
+    width: 100%;
+  }
+  .trucks--Cards-container__item div h3 {
+    color: #ffffff;
+    text-align: end;
+    margin-right: 3rem;
+  }
+  .trucks--Cards-container__item div p {
+    color: #ffffff;
+    text-align: end;
+    margin-right: 3rem;
+  }
+}
+@media only screen and (max-width: 743px) and (min-width: 360px) {
+  .cover {
+    width: 100%;
+    height: 40vh;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    margin: 10%;
+  }
+  .about--information p {
+    width: 100%;
+  }
+  .wearehouse h2 {
+    width: 80%;
+  }
+  .wearehouse--container {
+    grid-template-columns: 1fr;
+    margin: 10%;
+  }
+  .wearehouse--container img {
+    width: 80%;
+  }
+  .wearehouse--container__item {
+    width: 100%;
+  }
+  .wearehouse--container__item h3 {
+    width: 100%;
+  }
+  .wearehouse--container__item p {
+    width: 100%;
+    text-align: justify;
+  }
+  .wearehouse--container:last-child img {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .wearehouse--container:last-child div {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .trucks {
+    height: 300vh;
+    margin-bottom: 10%;
+  }
+  .trucks h2 {
+    color: #1F3C90;
+    font-size: 2.5rem;
+  }
+  .trucks--Cards-container {
+    grid-template: repeat(5, 1fr)/1fr;
+    gap: 2%;
+    height: 100%;
+    width: 100%;
+  }
+  .trucks--Cards-container__item {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .trucks--Cards-container__item img {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+  }
+  .trucks--Cards-container__item div h3 {
+    color: #ffffff;
+    text-align: end;
+    margin-right: 2rem;
+  }
+  .trucks--Cards-container__item div p {
+    color: #ffffff;
+    text-align: end;
+    margin-right: 2rem;
+  }
 }/*# sourceMappingURL=nosotros.css.map */

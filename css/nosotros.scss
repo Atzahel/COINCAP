@@ -95,6 +95,7 @@
 }
 .trucks{
     height: 60vh;
+    margin-bottom: 10%;
 
     h2{
         color: $light-blue;
@@ -107,6 +108,9 @@
         height: 100%;
         width: 100%;
         &__item{
+            display: flex;
+            justify-content: end;
+            align-items: end;
             height: 100%;
             width: 100%;
             position: relative;
@@ -116,7 +120,22 @@
                 height: 100%;
                 z-index: -1;
                 background-color: $dark-blue;
+                left: 10%;
+            }
+            div{
+                h3{
+                    color: $white;
+                    text-align: end;
+                    margin-right: 2rem;
+                }
+                p{
+                    color: $white;
+                    text-align: end;
+                    margin-right: 2rem;
+                }
             }
         }
     }
 }
+@import "../Components/sass/nosotros-tablet";
+@import "../Components/sass/nosotros-movil";

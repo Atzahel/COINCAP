@@ -18,8 +18,8 @@
   <section class="cover">
     <img src="img/Camion-carga-gran-volumen.jpg" alt="Camión de carga de gran volumen">
     <ul class="breadcumb">
-      <li><a href="">Inicio | </a></li>
-      <li><a href="">nosotros</a></li>
+      <li><a href="/">Inicio | </a></li>
+      <li><a href="#">nosotros</a></li>
     </ul>
   </section>
   <section class="about">
@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="trucks--Cards-container__item">
-          <img src="" alt="">
+          <img src="img/Nissan2013.jpg" alt="Unidad Nissan 2013 blanca">
           <div>
             <h3>Nissan 2013 <br> Clase C2, 2 Ejes</h3>
             <p>2.63m X 1.58m X 1.69m</p>
@@ -97,7 +97,7 @@
 
   <script type="application/ld+json">
     // SCHEMA BREADCUMB
-    {
+    [{
       "@context": "http://schema.org/",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -114,11 +114,9 @@
           "item": "https://www.coincap.com.mx/nosotros"
         }
       ]
-    }
+    },
     // SCHEMA IMAGES
-    
-    <script type="application/ld+json">
-    [{
+    {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
       "contentUrl": "https://www.coincap.com.mx/img/Camion-carga-gran-volumen.jpg",
@@ -187,6 +185,19 @@
       "@context": "https://schema.org/",
       "@type": "ImageObject",
       "contentUrl": "https://www.coincap.com.mx/img/unidad-hiunday.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Nissan2013.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali",

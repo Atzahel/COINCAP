@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1024px) and (min-width: 744px){
+    .cover{
+        img{
+            position: absolute;
+            left: -70%;
+            top: 0;
+            width: auto;
+            height: 100%;
+            z-index: -1;
+            filter: brightness(0.6);
+        }
+    }
+    
+    .trucks{
+        margin: 10%;
+        &--Cards-container{
+            grid-template: 1fr 1fr / repeat(3, 1fr);
+            &__item{
+                img{
+                    position: absolute;
+                    height: 125%;
+                    left: 0%;
+                    width: 100%;
+                }
+                div{
+                    h3{
+                        color: $white;
+                        text-align: end;
+                        margin-right: 3rem;
+                    }
+                    p{
+                        color: $white;
+                        text-align: end;
+                        margin-right: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}

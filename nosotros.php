@@ -83,10 +83,10 @@
           </div>
         </div>
         <div class="trucks--Cards-container__item">
-          <img src="" alt="">
+          <img src="img/Unidad_Chevrolett.jpg" alt="Unidad Chevrolet 2017">
           <div>
-            <h3>Nissan 2013 <br> Clase C2, 2 Ejes</h3>
-            <p>2.63m X 1.58m X 1.69m</p>
+            <h3>Chevrolet 2017 <br> Clase C2, 2 Ejes</h3>
+            <p>4.30m X 2.40m x 2.08m</p>
           </div>
         </div>
     </div>
@@ -198,6 +198,19 @@
       "@context": "https://schema.org/",
       "@type": "ImageObject",
       "contentUrl": "https://www.coincap.com.mx/img/Nissan2013.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Unidad_Chevrolett.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali",

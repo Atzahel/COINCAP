@@ -1,0 +1,136 @@
+@import "../Components/sass/normalize";
+@import "../Components/sass/config";
+@import "../Components/sass/header";
+@import "../Components/sass/footer";
+
+.cover{
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 10% 0;
+    &--background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40vh;
+        background-color: $light-blue;
+        z-index: -2;
+    }
+    img{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        width: 80%;
+        z-index: -1;
+        filter: brightness(0.7);
+    }
+    .breadcumb{
+        display: flex;
+        li{
+            list-style: none;
+            a{
+                color: $white;
+                font-size: $xlg;
+            }
+        }
+    }
+}
+.about-of-service{
+    margin: 5% 10%;
+    h1{
+        font-size: $xlg;
+        color: $light-blue;
+    }
+    p{
+        text-align: justify;
+        font-size: $md;
+        line-height: 2rem;
+    }
+    h2{
+        margin-top: 5%;
+        font-size: $lg;
+        color: $light-blue;
+    }
+    ul{
+        li{
+            font-size: $md;
+            margin-top: 2rem;
+        }
+    }
+}
+.download-presentation{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 60% 40%;
+    margin: 10% 0;
+    width: 100%;
+    background-color: $light-blue;
+    p{
+        justify-self: self-end;
+        text-align: end;
+        width: 80%;
+        color: $white;
+        font-size: $lg;
+    }
+    button{
+        @include secundary-btn-DN;
+    }
+    button:hover{
+        @include secundary-btn-DNH;
+        transition: all 0.2ms;
+    }
+}
+.Questions{
+    display: grid;
+    place-items: center;
+    &--List{
+        padding: 1%;
+        background-color: $light-blue;
+        width: 80%;
+        li{
+            display: grid;
+            grid-template-columns: 80% 20%;
+            align-items: center;
+            border-bottom: solid $white 0.1rem;
+            font-size: $lg;
+            color: $white;
+            h2{
+                font-size: $lg;
+                color: $white;
+            }
+            svg{
+                cursor: pointer;
+            }
+            svg:hover, svg:active{
+                transform: scale(1.2);
+                transition: all 0.2s;
+            }
+            input, .information{
+                display: none;
+            }
+            input:checked + .information{
+                grid-column: 1 / 3;
+                display: grid;
+                place-items: center;
+                padding: 2%;
+                background-color: white;
+                h3{
+                    font-weight: bold;
+                    color: $dark-blue;
+                }
+                p{
+                    text-align: center;
+                    color: $light-blue;
+                }
+                img{
+                    width: 80%
+                }
+            }
+        }
+    }
+}
+@import "../Components/sass/services-tablet";
+@import "../Components/sass/services-movil";

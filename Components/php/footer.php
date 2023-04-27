@@ -1,6 +1,6 @@
 <footer>
     <section class="About-us">
-        <img src="img/Logotipo-Consorcio-Internacional-Caporali-Blanco.png" alt="Logotipo Consorcio Internacional Caporali">
+        <img src="https://wwww.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali-Blanco.png" alt="Logotipo Consorcio Internacional Caporali">
         <h3>ACERCA DE NOSOTROS</h3>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
         <div class="social-media-footer">

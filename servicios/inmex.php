@@ -5,19 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicio Inmex | Consorcio Internacional Caporali</title>
-  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="../css/services.css">
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <?php include ('Components/php/header.php') ?> 
+  <?php include ('../Components/php/header.php') ?> 
     <section class="cover">
         <div class="cover--background"></div>
-        <img src="img/Almacén_coincap.jpg" alt="">
+        <img src="../img/Almacén_coincap.jpg" alt="">
         <ul class="breadcumb">
         <li><a href="/">Inicio | </a></li>
         <li><a href="#">Servicio Inmex</a></li>
@@ -31,7 +31,7 @@
     </section>
     <section class="download-presentation">
         <p>Descarga nuestra presentación y descubre lo que podemos hacer por tu negocio</p>
-        <a href="Consorcio-Internacional-Caporali.pdf" target="_blank"><button>DESCARGAR YA</button></a>
+        <a href="../Consorcio-Internacional-Caporali.pdf" target="_blank"><button>DESCARGAR YA</button></a>
     </section>
     <section class="Questions">
         <ol class="Questions--List">
@@ -96,7 +96,7 @@
             </li>
         </ol>
     </section>
-  <?php include 'Components/php/footer.php'?>
+  <?php include '../Components/php/footer.php'?>
   
 <!-- ====================SCHEMA ============================= -->
 
@@ -116,7 +116,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Servicio INMEX",
-          "item": "https://www.coincap.com.mx/inmex"
+          "item": "https://www.coincap.com.mx/servicios/inmex"
         }
       ]
     },

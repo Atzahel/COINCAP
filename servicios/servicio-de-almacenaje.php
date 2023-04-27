@@ -5,19 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicio de Almacenaje | Consorcio Internacional Caporali</title>
-  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="../css/services.css">
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <?php include ('Components/php/header.php') ?> 
+  <?php include ('../Components/php/header.php') ?> 
     <section class="cover">
         <div class="cover--background"></div>
-        <img src="img/Almacén_coincap.jpg" alt="">
+        <img src="../img/Fachada Almacen CDMX.jpg" alt="Fachada almacén Ciudad de México">
         <ul class="breadcumb">
         <li><a href="/">Inicio | </a></li>
         <li><a href="#">Almacenaje</a></li>
@@ -50,7 +50,7 @@
     </section>
     <section class="download-presentation">
         <p>Descarga nuestra presentación y descubre lo que podemos hacer por tu negocio</p>
-        <a href="Consorcio-Internacional-Caporali.pdf" target="_blank"><button>DESCARGAR YA</button></a>
+        <a href="../Consorcio-Internacional-Caporali.pdf" target="_blank"><button>DESCARGAR YA</button></a>
     </section>
     <section class="Questions">
         <ol class="Questions--List">
@@ -63,7 +63,7 @@
                 <div class="information">
                   <h3>ALMACÉN LOGÍSTICO TIJUANA</h3>
                   <p>En CIC, te ofrecemos un almacén de primer nivel diseñado para potenciar tu negocio y brindarte resultados excepcionales. Con una impresionante superficie de 600m2 y 2000m2 de espacios amplios y funcionales, nuestro almacén es la solución perfecta para tus necesidades de almacenaje.</p>
-                  <img src="img/Almacen_Tijuana.jpg" alt="Almacen logístico en Tijuana">
+                  <img src="../img/Almacen_Tijuana.jpg" alt="Almacen logístico en Tijuana">
                   <h4>¿Qué nos hace destacar?</h4>
                   <p><strong>CROSSDOCKING EFICIENTE:</strong> Contamos con una zona de 100m2 especialmente dedicada al crossdocking, lo que significa que tus operaciones de carga y descarga serán rápidas y sin contratiempos. Optimiza tu flujo de trabajo y acelera tus procesos logísticos.</p>
                   <p><strong>SHUTTING Y SERVICIOS DE CALIDAD:</strong> Con un área de 100m2 destinada al shutting y servicios, nuestro almacén ofrece características excepcionales. El techo y los canalones aislados con fibra de vidrio, con un factor R11, garantizan un entorno óptimo para la conservación de tus productos. Además, contamos con bajantes de 6 pulgadas para un drenaje eficiente. Tu mercancía estará protegida y en las mejores condiciones.</p>
@@ -81,7 +81,7 @@
                 <div class="information">
                     <h3>ALMACÉN LOGÍSTICO CIUDAD DE MÉXICO</h3>
                     <p>En CIC, te ofrecemos un almacén estratégicamente ubicado en la Ciudad de México, que te brinda todas las ventajas para impulsar eficientemente tus operaciones. Con una amplia superficie de 1500m2 y la opción de utilizar racks para una mayor organización, nuestro almacén es el lugar perfecto para satisfacer tus necesidades de almacenamiento.</p>
-                    <img src="img/Almacen_CDMX.jpg" alt="Almacén logístico en la Ciudad de México">
+                    <img src="../img/Almacen_CDMX.jpg" alt="Almacén logístico en la Ciudad de México">
                     <h4>¿Por qué elegirnos?</h4>
                     <p><strong>CROSSDOCKING EFICIENTE:</strong> Contamos con una zona de 75m2 dedicada exclusivamente al crossdocking, lo que agiliza tus procesos de carga y descarga. Optimiza tu cadena de suministro y mejora la eficiencia de tus operaciones logísticas.</p>
                     <p><strong>SHUTTING Y SERVICIOS EXCEPCIONALES:</strong> Nuestro almacén cuenta con una zona de 50m2 especialmente diseñada para el shutting y otros servicios. La altura máxima de 6 metros te permite aprovechar al máximo el espacio disponible. Además, los techos y canalones de fibra de vidrio garantizan un entorno adecuado para tus productos, protegiéndolos de condiciones adversas.</p>
@@ -131,7 +131,7 @@
             </li>
         </ol>
     </section>
-  <?php include 'Components/php/footer.php'?>
+  <?php include '../Components/php/footer.php'?>
   
 <!-- ====================SCHEMA ============================= -->
 
@@ -151,7 +151,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Servicio de almacenaje",
-          "item": "https://www.coincap.com.mx/servicio-de-almacenaje"
+          "item": "https://www.coincap.com.mx/servicios/servicio-de-almacenaje"
         }
       ]
     },

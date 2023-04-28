@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1024px) and (min-width: 744px){
+    .cover{
+        height: 20vh;
+        padding: 10% 0;
+        overflow: hidden;
+    }
+    .Information{
+        h1{
+            font-size: $xlg;
+        }
+        p{
+            font-size: $lg;
+        }
+    }
+    .Call-us{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10%;
+        &--items{
+            display: grid;
+            grid-template-columns: 20% 1fr;
+            place-items: start;
+            svg{
+                width: 5rem;
+                margin-left: 5%;
+            }
+            div{
+                h2{
+                    font-size: $lg;
+                    color: $light-blue;
+                }
+                p{
+                    font-size: $md;
+                }
+            }
+        }
+    }
+    .form{
+        margin-bottom: 30%;
+        form{
+            display: grid;
+            grid-template-columns: 1fr;
+            input{
+                width: 70vw;
+                outline: none;
+            }
+            textarea{
+                grid-column: 1 / 1;
+                width: 70vw;
+                text-align: center;
+            }
+            input:last-child{
+                grid-column: 1 / 1;
+            }
+        }
+    }
+}

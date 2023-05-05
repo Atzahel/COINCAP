@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicio de transporte aéreo en México</title>
   <link rel="stylesheet" href="css/contacto.css">
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- ===== SEO ======== -->
+  <title>Contacta con nosotros | Consorcio Internacional Caporali</title>
+  <meta name="description" content="Contacta y cotiza el servicio logístico que desees, somos tu aliado logístico.">
+  <meta name="keywords" content="consorcio internacional caporali contacto, coincap, coincap correo">
+
 </head>
 <body>
   <?php include ('Components/php/header.php') ?> 
@@ -103,7 +107,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/Fachada Almacen CDMX.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

@@ -831,7 +831,7 @@ footer h3 {
   height: 25%;
   margin-left: 5vw;
   border-radius: 7pt;
-  padding: 6rem;
+  padding: 8%;
   background-color: rgba(31, 60, 144, 0.8);
 }
 .Cover--Information p {
@@ -1107,103 +1107,11 @@ footer h3 {
   font-weight: bold;
 }
 
-.blog {
-  margin: 0 10%;
-}
-.blog h2 {
-  width: 25%;
-  font-size: 2.5rem;
-  border-bottom: solid 0.2rem #F9CA47;
-}
-.blog h2 strong {
-  color: #1F3C90;
-}
-.blog--Container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10%;
-}
-.blog--Container img {
+iframe {
   width: 100%;
-  height: 40vh;
-  background-color: #1C3156;
-}
-.blog--Container h3 {
-  font-size: 1.5rem;
-}
-.blog--Container p:nth-last-child(2) {
-  color: #1F3C90;
-  font-size: 1.1rem;
-}
-.blog--Container p:last-child {
-  font-size: 1.1rem;
-  text-align: justify;
+  height: 200rem;
 }
 
-@media only screen and (max-width: 743px) and (min-width: 360px) {
-  .blog {
-    padding-bottom: 10%;
-    margin: 0 10%;
-    height: auto;
-    height: 220vh;
-  }
-  .blog h2 {
-    width: 50%;
-  }
-  .blog--Container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10%;
-  }
-  .blog--Container img {
-    width: 100%;
-    height: 40vh;
-    background-color: #1C3156;
-  }
-  .blog--Container h3 {
-    font-size: 1.5rem;
-  }
-  .blog--Container p:nth-last-child(2) {
-    color: #1F3C90;
-    font-size: 1.1rem;
-  }
-  .blog--Container p:last-child {
-    font-size: 1.1rem;
-    text-align: justify;
-  }
-}
-@media only screen and (max-width: 1024px) and (min-width: 744px) {
-  .blog {
-    padding-bottom: 10%;
-    margin: 0 10%;
-    height: auto;
-    height: 150vh;
-  }
-  .blog h2 {
-    width: 50%;
-  }
-  .blog--Container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10%;
-  }
-  .blog--Container img {
-    width: 100%;
-    height: 30vh;
-    background-color: #1C3156;
-  }
-  .blog--Container h3 {
-    font-size: 1.5rem;
-  }
-  .blog--Container p:nth-last-child(2) {
-    color: #1F3C90;
-    font-size: 1.1rem;
-  }
-  .blog--Container p:last-child {
-    font-size: 1.1rem;
-    text-align: justify;
-  }
-}
 .Video-section {
   display: flex;
   flex-direction: column;

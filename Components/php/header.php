@@ -36,18 +36,18 @@
       </g>
     </svg></a>
     <ul>
-      <a href="" class="link-navegation"><li>Nosotros</li></a>
+      <a href="/nosotros" class="link-navegation"><li>Nosotros</li></a>
       <li class="services">Servicios</li>
       <ul>
-        <a href=""><li>INMEX</li></a>
-        <a href=""><li>Servicio de Almacenamiento</li></a>
-        <a href=""><li>Operador logístico 3 y 4pl</li></a>
-        <a href=""><li>Flete Terrestre</li></a>
-        <a href=""><li>Paquetería</li></a>
-        <a href=""><li>Transporte aéreo Nacional</li></a>
+        <a href="../../servicios/inmex"><li>INMEX</li></a>
+        <a href="../../servicios/servicio-de-almacenaje"><li>Servicio de Almacenamiento</li></a>
+        <a href="../../servicios/operador-logistico"><li>Operador logístico 3 y 4pl</li></a>
+        <a href="../../servicios/flete-terrestre"><li>Flete Terrestre</li></a>
+        <a href="../../servicios/paqueteria"><li>Paquetería</li></a>
+        <a href="../../servicios/transporte-aereo"><li>Transporte aéreo Nacional</li></a>
       </ul>
-      <a href="" class="link-navegation"><li>Blog</li></a>
-      <a href="" class="link-navegation"><li>Contacto</li></a>
+      <a href="https://blog.coincap.com.mx" class="link-navegation"><li>Blog</li></a>
+      <a href="../../contacto" class="link-navegation"><li>Contacto</li></a>
     </ul>
     <div class="social-media">
       <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="38.14" height="37.909" viewBox="0 0 38.14 37.909">
@@ -141,7 +141,7 @@
         </g>
       </svg></a>
       <ul class="responsive-nav-menu">
-        <a href=""><li>NOSOTROS</li></a>
+        <a href="../../nosotros"><li>NOSOTROS</li></a>
         <li class="mobile-dropdown-services">SERVICIOS 
           <label for="Movile-Services"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16">
             <path id="Polygon_2" data-name="Polygon 2" d="M9,0l9,16H0Z" transform="translate(18 16) rotate(180)" fill="#1f3c90"/>
@@ -149,15 +149,15 @@
         </li>
         <input type="checkbox" name="Movile-Services" id="Movile-Services">
         <ul class="movilServices">
-          <a href=""><li>INMEX</li></a>
-          <a href=""><li>ALMACENAJE</li></a>
-          <a href=""><li>OPERADOR LOGÍSTICO 3 Y 4PL</li></a>
-          <a href=""><li>FLETE TERRESTRE</li></a>
-          <a href=""><li>PAQUETERÍA</li></a>
-          <a href=""><li>TRANSPORTE AÉREO INTERNACIONAL</li></a>
+          <a href="../../servicios/inmex"><li>INMEX</li></a>
+          <a href="../../servicios/servicio-de-almacenaje"><li>ALMACENAJE</li></a>
+          <a href="../../servicios/operador-logistico"><li>OPERADOR LOGÍSTICO 3 Y 4PL</li></a>
+          <a href="../../servicios/flete-terrestre"><li>FLETE TERRESTRE</li></a>
+          <a href="../../servicios/paqueteria"><li>PAQUETERÍA</li></a>
+          <a href="../../servicios/transporte-aereo"><li>TRANSPORTE AÉREO INTERNACIONAL</li></a>
         </ul>
-        <a href=""><li>BLOG</li></a>
-        <a href=""><li>CONTACTO</li></a>
+        <a href="https://blog.coincap.com.mx"><li>BLOG</li></a>
+        <a href="../../contacto"><li>CONTACTO</li></a>
       </ul>
       <div class="social-media-movil">
         <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="38.14" height="37.909" viewBox="0 0 38.14 37.909">

@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acerca de nosotros | Consorcio Internacional Caporali</title>
   <link rel="stylesheet" href="css/nosotros.css">
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +11,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!-- =========== SEO ============== -->
+  <title>Acerca de nosotros | Consorcio Internacional Caporali</title>
+  <meta name="description" content="Somos una empresa mexicana con más de 10 años de experiencia en el mercado logístico dispuesta a ofrecer las mejores soluciones personalizadas para tu negocio">
+  <meta name="keywords" content="consorcio internacional caporai, coincap, coincap logistica, empresas de logística en mexico">
 </head>
 <body>
   <?php include ('Components/php/header.php') ?> 

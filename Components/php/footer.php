@@ -2,14 +2,14 @@
     <section class="About-us">
         <img src="https://wwww.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali-Blanco.png" alt="Logotipo Consorcio Internacional Caporali">
         <h3>ACERCA DE NOSOTROS</h3>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+        <p>Somos empresa Mexicana con más de 10 años de experiencia brindando servicios logísticos y soluciones a multiples empresas de diferentes sectores como alimentos, texnología y salud. </p>
         <div class="social-media-footer">
-            <a href="">
+            <a href="https://www.facebook.com/Consorcio-Internacional-Caporali-275957474269441/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38.14" height="37.909" viewBox="0 0 38.14 37.909">
                     <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" d="M38.7,19.632a19.07,19.07,0,1,0-22.05,18.839V25.145H11.808V19.632h4.844v-4.2c0-4.779,2.845-7.419,7.2-7.419a29.348,29.348,0,0,1,4.269.372v4.691H25.719a2.756,2.756,0,0,0-3.107,2.978v3.579H27.9l-.846,5.513H22.612V38.472A19.077,19.077,0,0,0,38.7,19.632Z" transform="translate(-0.563 -0.563)" fill="#fff"/>
                 </svg>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/company/coincap1/" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="38.142" height="38.142" viewBox="0 0 38.142 38.142">
                     <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M35.417,2.25H2.716A2.736,2.736,0,0,0,0,5V37.642a2.736,2.736,0,0,0,2.716,2.75h32.7a2.743,2.743,0,0,0,2.724-2.75V5A2.743,2.743,0,0,0,35.417,2.25ZM11.528,34.943H5.874V16.74h5.662v18.2ZM8.7,14.254a3.278,3.278,0,1,1,3.278-3.278A3.279,3.279,0,0,1,8.7,14.254ZM32.718,34.943H27.065V26.088c0-2.111-.043-4.827-2.937-4.827-2.946,0-3.4,2.3-3.4,4.674v9.008H15.078V16.74H20.5v2.486h.077a5.954,5.954,0,0,1,5.355-2.937c5.721,0,6.785,3.772,6.785,8.676Z" transform="translate(0 -2.25)" fill="#fff"/>
                 </svg>

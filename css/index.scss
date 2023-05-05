@@ -26,7 +26,7 @@
         height: 25%;
         margin-left: 5vw;
         border-radius: 7pt;
-        padding: 6rem;
+        padding: 8%;
         background-color: rgba($light-blue,0.8);
         p{
             margin-top: 1rem;
@@ -275,7 +275,10 @@
         }
     }
 }
-@import '../Components/sass/_recent-Post.scss';
+iframe{
+    width: 100%;
+    height: 200rem
+}
 .Video-section{
     display: flex;
     flex-direction: column;

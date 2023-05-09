@@ -40,7 +40,7 @@
       <li class="services">Servicios</li>
       <ul>
         <a href="../../servicios/inmex"><li>INMEX</li></a>
-        <a href="../../servicios/servicio-de-almacenaje"><li>Servicio de Almacenamiento</li></a>
+        <a href="../../servicios/servicio-de-almacen"><li>Servicio de almacén</li></a>
         <a href="../../servicios/operador-logistico"><li>Operador logístico 3 y 4pl</li></a>
         <a href="../../servicios/flete-terrestre"><li>Flete Terrestre</li></a>
         <a href="../../servicios/paqueteria"><li>Paquetería</li></a>
@@ -150,7 +150,7 @@
         <input type="checkbox" name="Movile-Services" id="Movile-Services">
         <ul class="movilServices">
           <a href="../../servicios/inmex"><li>INMEX</li></a>
-          <a href="../../servicios/servicio-de-almacenaje"><li>ALMACENAJE</li></a>
+          <a href="../../servicios/servicio-de-almacen"><li>ALMACENAJE</li></a>
           <a href="../../servicios/operador-logistico"><li>OPERADOR LOGÍSTICO 3 Y 4PL</li></a>
           <a href="../../servicios/flete-terrestre"><li>FLETE TERRESTRE</li></a>
           <a href="../../servicios/paqueteria"><li>PAQUETERÍA</li></a>

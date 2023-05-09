@@ -1,0 +1,36 @@
+RewriteEngine On
+RewriteRule ^nosotros/?$ nosotros.php
+RewriteRule ^importacion/?$ importacion-inmex.php
+RewriteRule ^/?$ index.php
+RewriteRule ^galeria/?$ galeria.php
+RewriteRule ^fletes/?$ fletes-terrestes.php
+RewriteRule ^almacenamiento/?$ servicio-de-almacenaje.php
+RewriteRule ^aereo/?$ transporte-aereo-nacional.php
+RewriteRule ^contacto/?$ contacto.php
+RewriteRule ^pl/?$ operador-logistico-2-3-4pl.php
+RewriteRule ^iflcya/?$ servicios.php
+RewriteRule ^paqueteria/?$ servicio-de-paqueteria.php
+
+# Force HTTPS
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+# REDIRECTION 301
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# PROTECT HTACCESS
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+Order Allow,Deny
+Deny from all
+Satisfy all
+</Files>
+
+# REMOVE PHP AND HTML EXTENSION
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

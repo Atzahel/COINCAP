@@ -4,20 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicio de transporte aéreo en México</title>
   <link rel="stylesheet" href="../css/services.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="../favicon.ico">
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <!-- ===== SEO ======== -->
+  <title>Servicio de transporte aéreo en México</title>
+  <meta name="description" content="Lleva tu mercancía a cualquier parte de México con nuestro servicio de transporte aéreo en México">
+  <meta name="keywords" content="servicio transporte aéreo, transporte de carga aéreo mexico, transporte de carga aérea mexico">
+      <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicio de transporte aéreo en México">
+  <meta property="og:url" content="https://www.coincap.com.mx/contacto">
+  <meta property="og:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-transporte-aereo.webp">
+  <meta property="og:description" content="Transporta tu mercancía en cualquier parte de México con nuestro servicio. Entra para ver más">
+
+  <!-- ===== TWITTER CARDS ====== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicio de transporte aéreo en México">
+  <meta name="twitter:site" content="@CoincapLogistic">
+  <meta name="twitter:description" content="Transporta tu mercancía en cualquier parte de México con nuestro servicio. Entra para ver más">
+  <meta name="twitter:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-transporte-aereo.webp">
+  <meta name="twitter:image:alt" content="Transporte de carga aéreo">
 </head>
 <body>
   <?php include ('../Components/php/header.php') ?> 
     <section class="cover">
         <div class="cover--background"></div>
-        <img src="../img/Flete Terrestre.jpg" alt="Unidades Consorcio Internacional Caporali en almacén de Ciudad de México">
+        <img src="../img/servicio-transporte-aereo.webp" alt="Servicio de transporte de carga aérea en México">
         <ul class="breadcumb">
         <li><a href="../">Inicio | </a></li>
         <li><a href="#">Transporte aéreo</a></li>
@@ -115,8 +139,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Operador logístico",
-          "item": "https://www.coincap.com.mx/servicios/operador-logistico"
+          "name": "Servicio de transporte aéreo",
+          "item": "https://www.coincap.com.mx/servicios/transporte-aereo"
         }
       ]
     },
@@ -124,7 +148,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/servicio-transporte-aereo.webp",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

@@ -4,14 +4,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicio de Flete terrestre en México</title>
   <link rel="stylesheet" href="../css/services.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="../favicon.ico">
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <!-- ===== SEO ===== -->
+  <title>Servicio de Flete terrestre en México</title>
+  <meta name="description" content="Mejora la cadena de suministro de tu negocio con nuestros servicios de almacén o transporte y acondicionamiento de mercancías en múltiples medios de transporte.">
+  <meta name="keywords" content="servicios logisticos mexico, operador logistico mexico, consorcio internacional caporali">
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicio de Flete Terrestre en México">
+  <meta property="og:url" content="https://www.coincap.com.mx/servicios/flete-terrestre">
+  <meta property="og:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-flete-terrestre.webp">
+  <meta property="og:description" content="Envía tu mercancía con nosotros tu mercancía a cualquier parte de la República Mexicana">
+
+  <!-- ===== TWITTER CARDS ====== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicio de Flete Terrestre en México">
+  <meta name="twitter:site" content="@CoincapLogistic">
+  <meta name="twitter:description" content="Envía tu mercancía con nosotros tu mercancía a cualquier parte de la República Mexicana">
+  <meta name="twitter:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-flete-terrestre.webp">
+  <meta name="twitter:image:alt" content="Servicio de Flete Terrestre en México">
+
 </head>
 <body>
   <?php include ('../Components/php/header.php') ?> 
@@ -132,7 +158,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/Flete Terrestre.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

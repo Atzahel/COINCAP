@@ -5,6 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicio de Paquetería en México</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
   <link rel="stylesheet" href="../css/services.css">
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +24,7 @@
   <?php include ('../Components/php/header.php') ?> 
     <section class="cover">
         <div class="cover--background"></div>
-        <img src="../img/Flete Terrestre.jpg" alt="Unidades Consorcio Internacional Caporali en almacén de Ciudad de México">
+        <img src="../img/servicio-paqueteria.webp" alt="Servicio de paquetería en Ciudad de México y Tijuana">
         <ul class="breadcumb">
         <li><a href="../">Inicio | </a></li>
         <li><a href="#">Paquetería</a></li>
@@ -120,8 +127,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Operador logístico",
-          "item": "https://www.coincap.com.mx/servicios/operador-logistico"
+          "name": "Servicio de paquetería",
+          "item": "https://www.coincap.com.mx/servicios/paqueteria"
         }
       ]
     },
@@ -129,7 +136,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/servicio-paqueteria.webp",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

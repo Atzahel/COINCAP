@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Operador logístico en México | Coincap</title>
   <link rel="stylesheet" href="../css/services.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -132,7 +139,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/Almacén_coincap.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

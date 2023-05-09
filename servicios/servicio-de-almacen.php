@@ -4,14 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicio de Almacenaje | Consorcio Internacional Caporali</title>
   <link rel="stylesheet" href="../css/services.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <!-- ===== SEO ======== -->
+  <title>Servicio de Almacen | Consorcio Internacional Caporali</title>
+  <meta name="description" content="Servicio de almacen logístico en Ciudad de México y Tijuana">
+  <meta name="keywords" content="servicio de almacenaje, servicio de almacenaje ciudad de mexico, almacen logistico ciudad de mexico, almacen logistico tijuana, servicio de almacenaje tijuana">
+      <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Servicio de almacén en México">
+  <meta property="og:url" content="https://www.coincap.com.mx/servicio-de-almacen">
+  <meta property="og:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-almacen.webp">
+  <meta property="og:description" content="Almacena tu mercancía en Ciudad de México o Tijuana, ubicaciones estratégicas cerca de ti">
+
+  <!-- ===== TWITTER CARDS ====== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicio de almacén en México">
+  <meta name="twitter:site" content="@CoincapLogistic">
+  <meta name="twitter:description" content="Almacena tu mercancía en Ciudad de México o Tijuana, ubicaciones estratégicas cerca de ti">
+  <meta name="twitter:image" content="https://coincap.com.mx/img/opengraph-twitter/servicio-almacen.webp">
+  <meta name="twitter:image:alt" content="Servicio de Almacén">
 </head>
 <body>
   <?php include ('../Components/php/header.php') ?> 
@@ -151,7 +175,7 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Servicio de almacenaje",
-          "item": "https://www.coincap.com.mx/servicios/servicio-de-almacenaje"
+          "item": "https://www.coincap.com.mx/servicios/servicio-de-almacen"
         }
       ]
     },
@@ -159,7 +183,7 @@
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/",
+      "contentUrl": "https://www.coincap.com.mx/img/Fachada Almacen CDMX.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
       "creditText": "Consorcio Internacional Caporali S.A. de C.V.",

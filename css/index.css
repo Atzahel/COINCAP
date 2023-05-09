@@ -1530,8 +1530,8 @@ iframe {
   .Video-section p {
     width: 80%;
   }
-  .Video-section iframe {
-    width: 80vw;
+  .Video-section video {
+    width: 100%;
   }
   .Form-Section {
     display: grid;

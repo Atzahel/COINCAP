@@ -5,6 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
+
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PDX5VWP');</script>
+  <!-- End Google Tag Manager -->
+
   <!-- Link Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +33,12 @@
   <meta property="og:description" content="Servicios logísticos en México, conoce lo que Consorcio puede hacer por tu negocio.">
 
   <!-- ===== TWITTER CARDS ====== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Operador logístico en México">
+  <meta name="twitter:site" content="@CoincapLogistic">
+  <meta name="twitter:description" content="Servicios logísticos en México, conoce lo que Consorcio puede hacer por tu negocio.">
+  <meta name="twitter:image" content="https://coincap.com.mx/img/opengraph-twitter/montacargas.webp">
+  <meta name="twitter:image:alt" content="Operador logístico en México">
 </head>
 <body>
   <?php include ('Components/php/header.php') ?> 

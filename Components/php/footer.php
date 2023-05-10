@@ -1,6 +1,6 @@
 <footer>
     <section class="About-us">
-        <img src="https://wwww.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali-Blanco.png" alt="Logotipo Consorcio Internacional Caporali">
+        <img src="https://www.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali-Blanco.png" alt="Logotipo Consorcio Internacional Caporali">
         <h3>ACERCA DE NOSOTROS</h3>
         <p>Somos empresa Mexicana con más de 10 años de experiencia brindando servicios logísticos y soluciones a multiples empresas de diferentes sectores como alimentos, texnología y salud. </p>
         <div class="social-media-footer">
@@ -45,11 +45,11 @@
             </div>
             <h3>GALERÍA</h3>
             <div class="Locations--place__Galery">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="../../img/Fachada Almacen CDMX.jpg" alt="Fachada almacén ciudad de méxico">
+                <img src="../../img/Almacen_CDMX.jpg" alt="Almacén logístico en Ciudad de México">
+                <img src="../../img/entrada-almacen-cdmx.webp" alt="Entrada Almacén logístico Ciudad de México">
+                <img src="../../img/unidades-en-almacen.webp" alt="Unidades en almacen logistico cdmx">
+                <img src="../../img/segunda-seccion-almacen.webp" alt="Segunda Sección almacen cdmx">
                 <img src="" alt="">
             </div>
         </div>
@@ -76,13 +76,176 @@
             </div>
             <h3>GALERÍA</h3>
             <div class="Locations--place__Galery">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="../../img/galeria/logistica-y-almacenaje-en-tijuana-1.jpg" alt="Almacen Logístico en Tijuana">
+                <img src="../../img/galeria/logistica-y-almacenaje-en-tijuana-10.jpg" alt="Fachada de la entrada del alamacén">
+                <img src="../../img/galeria/logistica-y-almacenaje-en-tijuana-11.jpg" alt="Almacén Logístico Tijuana Coincap">
+                <img src="../../img/galeria/logistica-y-almacenaje-en-tijuana-12.jpg" alt="Zona de descarga para la mercancía almacén tijuana">
+                <img src="../../img/galeria/logistica-y-almacenaje-en-tijuana-13.jpg" alt="Almacén logístico en Tijuana">
+                <img src="../../img//galeria/logistica-y-almacenaje-en-tijuana-16.jpg" alt="Almacén logístico en Tijuana">
             </div>
         </div>
     </section>
 </footer>
+<script type="application/ld+json"> 
+[{
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Fachada Almacen CDMX.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali S.A. de C.V.",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+   {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Almacen_CDMX.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/entrada-almacen-cdmx.webp",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+        "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/unidades-en-almacen.webp",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+      },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/segunda-seccion-almacen.webp",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    }, 
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-1.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-10.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-11.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-12.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-13.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/galeria/logistica-y-almacenaje-en-tijuana-16.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    // SCHEMA Organization
+    {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "name": "Consorcio Internacional Caporali",
+      "logo": "https://www.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali.png",
+      "url": "https://www.coincap.com.mx",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Norte #29 36° Col. Moctezuma, 2da Sección Alcaldía V. Carranza",
+        "addressLocality": "Ciudad de México",
+        "addressRegion": "Ciudad de México",
+        "postalCode": "15530",
+        "addressCountry": "Mexico"
+      },
+      "sameAs": ["https://www.facebook.com/Consorcio-Internacional-Caporali-275957474269441/", "https://www.linkedin.com/company/coincap1/", "https://twitter.com/CoincapLogistic"]
+    }
+    ]
+  </script>

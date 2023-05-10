@@ -172,13 +172,26 @@
       "contentUrl": "https://www.coincap.com.mx/img/Almacen_Tijuana.jpg",
       "license": "https://www.coincap.com.mx",
       "acquireLicensePage": "https://www.coincap.com.mx/contacto",
-      "creditText": "Consorcio Internacional Caporali",
+        "creditText": "Consorcio Internacional Caporali",
       "creator": {
         "@type": "Organization",
         "name": "Consorcio Internacional Caporali S.A. de C.V."
        },
       "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
     },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Unidad_Chevrolett.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+      },
     {
       "@context": "https://schema.org/",
       "@type": "ImageObject",
@@ -230,20 +243,8 @@
         "name": "Consorcio Internacional Caporali S.A. de C.V."
        },
       "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
-    },
-    {
-      "@context": "https://schema.org/",
-      "@type": "ImageObject",
-      "contentUrl": "https://www.coincap.com.mx/img/Unidad_Chevrolett.jpg",
-      "license": "https://www.coincap.com.mx",
-      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
-      "creditText": "Consorcio Internacional Caporali",
-      "creator": {
-        "@type": "Organization",
-        "name": "Consorcio Internacional Caporali S.A. de C.V."
-       },
-      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
-    }]
+    }
+    ]
   </script>
 </body>
 </html>

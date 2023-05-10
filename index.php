@@ -215,5 +215,96 @@
       </section>
     </main>
     <?php include 'Components/php/footer.php'?>
+    <!-- ====== SCHEMA ====== -->
+    <script type="application/ld+json">
+    // SCHEMA IMAGES
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Almacén_coincap.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali S.A. de C.V.",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+   {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Camion Inter 2011.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Almacen Ciudad de Mexico.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+        "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/RAM 2017, Clase C2.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+      },
+    {
+      "@context": "https://schema.org/",
+      "@type": "ImageObject",
+      "contentUrl": "https://www.coincap.com.mx/img/Flete Terrestre.jpg",
+      "license": "https://www.coincap.com.mx",
+      "acquireLicensePage": "https://www.coincap.com.mx/contacto",
+      "creditText": "Consorcio Internacional Caporali",
+      "creator": {
+        "@type": "Organization",
+        "name": "Consorcio Internacional Caporali S.A. de C.V."
+       },
+      "copyrightNotice": "Consorcio Internacional Caporali S.A. de C.V."
+    }, 
+    // SCHEMA VIDEO
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Consorcio Internacional Caporali | Operador logístico",
+      "description": "Somos una empresa con más de 10 años de experiencia proveyendo servicios logísticos a empresas de diferentes sectores. Proporcionamos estrategias personalizadas acorde a las necesidades de tu negocio. En Consorcio somos tu aliado logístico",
+      "thumbnailUrl": [
+        "https://www.coincap.com.mx/img/Logotipo-Consorcio-Internacional-Caporali.png"
+      ],
+      "uploadDate": "2023-05-8T08:00:00+08:00",
+      "duration": "PT1M54S",
+      "contentUrl": "https://www.coincap.com.mx/video/Consorcio_Internacional_Caporali.mp4",
+      "embedUrl": "https://www.coincap.com.mx",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 5647018
+      }
+    }
+    ]
+  </script>
 </body>
 </html>

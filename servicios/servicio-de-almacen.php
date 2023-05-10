@@ -18,8 +18,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.ico">
   <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <!-- ===== SEO ======== -->
-  <title>Servicio de Almacen | Consorcio Internacional Caporali</title>
+  <!-- ===== SEO ======== -->
+  <title>Almacén logístico en Ciudad de México y Tijuana</title>
   <meta name="description" content="Servicio de almacen logístico en Ciudad de México y Tijuana">
   <meta name="keywords" content="servicio de almacenaje, servicio de almacenaje ciudad de mexico, almacen logistico ciudad de mexico, almacen logistico tijuana, servicio de almacenaje tijuana">
       <!-- ===== OPEN GRAPH ===== -->

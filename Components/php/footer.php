@@ -50,7 +50,7 @@
                 <img src="../../img/entrada-almacen-cdmx.webp" alt="Entrada Almacén logístico Ciudad de México">
                 <img src="../../img/unidades-en-almacen.webp" alt="Unidades en almacen logistico cdmx">
                 <img src="../../img/segunda-seccion-almacen.webp" alt="Segunda Sección almacen cdmx">
-                <img src="" alt="">
+                <img src="../../img/Consorcio-Internacional-Caporali-Carga-gran -volumen-1.jpg" alt="Unidades Consorcio Internacional Caporali">
             </div>
         </div>
         <div class="Locations--place">

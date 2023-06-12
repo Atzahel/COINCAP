@@ -68,16 +68,6 @@
                 </div>
             </li>
             <li>
-                <h2>¿Cuál es la carga máxima que se puede enviar?</h2>
-                <label for="q3"><svg xmlns="http://www.w3.org/2000/svg" width="32.001" height="21.001" viewBox="0 0 32.001 21.001">
-                    <path id="Subtraction_1" data-name="Subtraction 1" d="M-6972,28h0l-16-21h5.333L-6972,21l10.668-14H-6956l-16,21Z" transform="translate(6988 -6.999)" fill="#fff"/>
-                </svg></label>
-                <input type="checkbox" name="q3" id="q3">
-                <div class="information">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tempore! Nam ab nisi soluta dignissimos debitis maxime natus mollitia ex cupiditate sunt facere non, esse, maiores doloribus consequatur culpa explicabo?</p>
-                </div>
-            </li>
-            <li>
                 <h2>¿Cómo puedo contactarlos?</h2>
                 <label for="q4"><svg xmlns="http://www.w3.org/2000/svg" width="32.001" height="21.001" viewBox="0 0 32.001 21.001">
                     <path id="Subtraction_1" data-name="Subtraction 1" d="M-6972,28h0l-16-21h5.333L-6972,21l10.668-14H-6956l-16,21Z" transform="translate(6988 -6.999)" fill="#fff"/>
